@@ -41,10 +41,28 @@ html {
     max-width: 1140px;
     margin: 100px auto;
 }
+
+.side-bar {
+    background-color: #82B6EA;
+    width: 23%;
+    height: 500px;
+    float: left;
+}
+
 /* --- HEADINGS --- */
 h1 {
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 80%;
+    padding: 5px 0px;
+}
+
+.side-bar h2 {
+    color: #fff;
 }
 
 .ctr-index h2 {
@@ -53,6 +71,7 @@ h1 {
     color: #fff;
     padding: 10px;
 }
+
 
 /* --- ICONS --- */
 
