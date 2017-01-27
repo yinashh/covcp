@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Traffic Vision</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="./style.css">
-  <meta charset=UTF-8>
-  <meta name="viewport" content="width=device-width, 
-          initial-scale=1.0
-          maximum-scale=1.0
-          user-scalable=no">
-</head>
-<body>
-  <header>
-    <img class="header-logo col-6 offset-3" src="./logo.png" />
-  </header>
-  <main class="contianer-fluid">
-    <div class="row main-body">
-      <div class="col-md-6 offset-md-3">
-        <div class="login-container">
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="username" id="username"/>
+<html lang="en">
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="external/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+        <title>Traffic Vision</title>
+    </head>
+    
+    <body>
+        <header>
+            <div class="row">
+                <img class="header-logo" src="resources/img/logo.png" alt="Traffic Vision Logo">
+            </div>        
+        </header>
+        
+        <div class="login-page">
+            <div class="form">
+                <form class="register-form">
+                    <input type="text" placeholder="name"/>
+                    <input type="password" placeholder="password"/>
+                    <input type="text" placeholder="email address"/>
+                    <button>create</button>
+                    <p class="message">Already registered? <a href="#">Sign In</a></p>
+                </form>
+                <form class="login-form">
+                    <input type="text" placeholder="username"/>
+                    <input type="password" placeholder="password"/>
+                    <button>login</button>
+                    <p class="message">Not registered? <a href="#">Create an account</a></p>
+                </form>
             </div>
-            <div class="form-group">
-              <input type="password" class="form-control" placeholder="password" id="password"/>
-            </div>
-            <button type="submit" class="btn login-button">Log In</button>
-          </form>
         </div>
-      </div>
-    </div>
-  </main>
-</body>
+        
+        <!--
+        <div class="login-container">
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="username" id="username"/>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="password" id="password"/>
+                </div>
+                <button type="submit" class="btn login-btn">Log In</button>
+            </form>
+        </div>
+        -->
+    </body>
 </html>
