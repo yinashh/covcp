@@ -1,44 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Traffic Vision</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="./style.css">
-  <meta charset=UTF-8>
-  <meta name="viewport" content="width=device-width, 
-          initial-scale=1.0
-          maximum-scale=1.0
-          user-scalable=no">
-</head>
-<body>
-  <header>
-    <img class="header-logo col-6 offset-3" src="./logo.png" />
-  </header>
-  <main class="contianer-fluid">
-    <div class="row main-body">
-      <div class="col-md-4 col-sm-6">
-        <div class="box-container">
-          <div class="box" id="mobile_help"></div>
-          <button class="btn box-button">MOBILE</button>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="box-container">
-          <div class="box" id="web_help"></div>
-          <button class="btn box-button">WEB</button>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="box-container">
-          <div class="box" id="faq"></div>
-          <button class="btn box-button">FAQ</button>
-        </div>
-      </div>
-    </div>
-  </main>
-</body>
+<html lang="en">
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="external/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="external/css/columns/col.css">
+        <link rel="stylesheet" type="text/css" href="external/css/columns/3cols.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+        <title>Traffic Vision</title>
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <a href="#"> <!--link to index.html-->
+                        <img src="resources/img/logo.png" alt="Traffic Vision Logo" class="nav-logo">
+                    </a>
+                    
+                    <ul class="main-nav">
+                        <li><a href="#">Home</a></li> <!--link to index.html-->
+                        <li><a href="#">Search</a></li> <!--link to search.html-->
+                        <li><a href="#">Report Generation</a></li> <!--link to report.html-->
+                        <li><a href="#">Help</a></li> <!--link to help.html-->
+                        <li><a href="#"><i class="ion-power"></i></a></li> <!--link to login.html-->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <h1>Help</h1>
+        
+        <section class="content">
+            <div class="section group">
+                <div class="col span_1_of_3">
+                    <div class="ctr-index">
+                        <a href="#"><i class="ion-iphone icon-large"></i></a> <!--link to download pdf-->
+                        <h2>Mobile App</h2>
+                    </div>
+                </div>
+
+                <div class="col span_1_of_3">
+                    <div class="ctr-index">
+                        <a href="#"><i class="ion-ios-monitor-outline icon-large"></i></a> <!--link to download pdf-->
+                        <h2>Web App</h2>
+                    </div>
+                </div>
+
+                <div class="col span_1_of_3">
+                    <div class="ctr-index">
+                        <a href="#"><i class="ion-ios-help-outline icon-large"></i></a> <!-- opens panel with FAQs-->
+                        <h2>FAQs</h2>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </body>
 </html>
