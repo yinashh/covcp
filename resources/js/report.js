@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 13,
@@ -27,3 +28,32 @@ function initMap() {
 
         flightPath.setMap(map);
       }
+=======
+/* 
+function initMap() {
+    var uluru = {lat: -25.363, lng: 131.044};
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: uluru
+    });
+    var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+    });
+}
+*/
+        
+$(document).ready(function(){
+    var uluru = {lat: -25.363, lng: 131.044};
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: uluru,
+        console.log('map');
+    });
+    var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+    });
+    map();
+}
+>>>>>>> e4ad6c9f0566381f6cf45191ff188c6ce420aea0
