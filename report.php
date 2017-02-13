@@ -96,7 +96,7 @@ $datapoints = "datapoints";
             
                 <select name="time">
                 <!-- pre-selected option -->
-                <option value="time" selected>Time</option>
+                <option value="time" selected>Start Time</option>
                 <?php
                 $time = "time";
                 showData($time, $datapoints);

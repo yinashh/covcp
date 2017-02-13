@@ -1,24 +1,5 @@
 <?php
 
-
-// find max
-function getMax($arr) {
-    return max($arr);
-}
-
-
-
-
-
-// find min
-function getMin($arr) {
-    return min($arr);
-}
-
-
-
-
-
 // find average
 function getAverage($arr) {
     if (!is_array($arr)) return false;
